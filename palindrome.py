@@ -3,7 +3,7 @@ import sys
 if len(sys.argv) >= 2:
     s = " ".join(sys.argv[1:])
 else:
-    s = input("Enter string: ")
+    s = level
 
 filtered = ""
 for ch in s:
